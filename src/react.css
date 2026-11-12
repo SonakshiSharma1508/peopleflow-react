@@ -1,0 +1,86 @@
+/* React-specific layout details. Shared visual tokens live in styles.css. */
+.drawer-close {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+}
+.drawer-close.mobile-menu {
+  display: none;
+}
+.error-boundary {
+  max-width: 680px;
+  margin: 15vh auto;
+  padding: 32px;
+  background: white;
+  border: 1px solid #dfe6dc;
+  border-radius: 16px;
+}
+.error-boundary h1 {
+  margin-bottom: 16px;
+}
+.error-boundary p {
+  margin-bottom: 24px;
+}
+.modal-dialog h2:focus {
+  outline: none;
+}
+.modal-dialog {
+  width: min(570px, calc(100vw - 32px));
+}
+.modal-dialog.modal-wide {
+  width: min(720px, calc(100vw - 32px));
+}
+.react-version-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--green);
+  background: var(--green-soft);
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+.form-error:empty {
+  display: none;
+}
+.toast-region .toast {
+  pointer-events: none;
+}
+.task-check:disabled {
+  opacity: 0.65;
+}
+.form-field > input,
+.form-field > select,
+.form-field > textarea {
+  margin-top: 5px;
+}
+.asset-panel .btn {
+  margin-top: 15px;
+}
+.filter-count {
+  white-space: normal;
+}
+.page-title:focus,
+#main-content:focus {
+  outline: none;
+}
+.table-wrap {
+  position: relative;
+}
+@media (max-width: 800px) {
+  .drawer-close.mobile-menu {
+    display: inline-flex;
+  }
+  .sidebar .brand {
+    max-width: 175px;
+  }
+}
+@media (max-width: 600px) {
+  .modal-dialog,
+  .modal-dialog.modal-wide {
+    width: calc(100vw - 24px);
+  }
+  .modal-footer > .form-hint {
+    width: 100%;
+  }
+}
