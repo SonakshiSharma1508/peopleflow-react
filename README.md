@@ -1,10 +1,12 @@
 # PeopleFlow React
 
+**Live website:** [https://sonakshisharma1508.github.io/peopleflow-react/](https://sonakshisharma1508.github.io/peopleflow-react/)
+
 A React frontend portfolio application for employee onboarding and offboarding at the fictional **Northstar Studio**. HR, IT, and managers coordinate connected tasks, equipment, notes, and employee journeys.
 
 The screens, forms, navigation, and shared application state use React. Workflow rules live in framework-independent JavaScript so they can be tested separately from the interface.
 
-**[Open the live demo](https://sonakshisharma1508.github.io/peopleflow-react/)** · [Demo walkthrough](docs/DEMO-GUIDE.md) · [Code and React guide](docs/REACT-GUIDE.md)
+[Demo walkthrough](docs/DEMO-GUIDE.md) · [Code and React guide](docs/REACT-GUIDE.md)
 
 ![PeopleFlow overview with employee journeys, progress, and attention items](docs/screenshots/overview.jpg)
 
